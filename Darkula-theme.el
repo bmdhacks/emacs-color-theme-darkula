@@ -1,18 +1,17 @@
 (deftheme Darkula
-  "Created 2013-09-09.")
+  "Created 2013-09-10.")
 
 (custom-theme-set-faces
  'Darkula
- '(default ((t (:inherit nil :stipple nil :background "#2B2B2B" :foreground "#708183" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120 :width normal :foundry nil :family nil))))
  '(cursor ((t (:foreground "#042028" :background "#708183"))))
  '(fixed-pitch ((t (:family "Monospace"))))
  '(variable-pitch ((t (:family "Sans Serif"))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
  '(minibuffer-prompt ((t (:weight bold :slant normal :underline nil :inverse-video nil :foreground "#259185"))))
- '(highlight ((t (:background "#0a2832"))))
+ '(highlight ((t (:background "#eee8d5"))))
  '(region ((t (:weight normal :slant normal :underline nil :inverse-video t :foreground "#465a61" :background "#042028"))))
  '(shadow ((t (:foreground "#465a61"))))
- '(secondary-selection ((t (:background "#0a2832"))))
+ '(secondary-selection ((t (:background "#586e75" :foreground "#002b36"))))
  '(trailing-whitespace ((t (:weight normal :slant normal :underline nil :inverse-video t :foreground "#c60007" :background "red1"))))
  '(font-lock-builtin-face ((t (:foreground "#cc7832" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-comment-delimiter-face ((t (:weight normal :slant italic :underline nil :inverse-video nil :foreground "#465a61" :inherit (font-lock-comment-face)))))
@@ -45,6 +44,7 @@
  '(lazy-highlight ((t (:weight normal :slant normal :underline nil :inverse-video t :foreground "#a57705" :background "#042028"))))
  '(match ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "RoyalBlue3")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "blue")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
  '(next-error ((t (:inherit (region)))))
- '(query-replace ((t (:inherit (isearch))))))
+ '(query-replace ((t (:inherit (isearch)))))
+ '(default ((t (:family nil :foundry nil :width normal :height 120 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#A9B7C6" :background "#2B2B2B" :stipple nil :inherit nil)))))
 
 (provide-theme 'Darkula)
